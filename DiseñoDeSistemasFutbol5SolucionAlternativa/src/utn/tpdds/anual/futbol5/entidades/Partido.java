@@ -83,7 +83,7 @@ public class Partido extends Observable {
 
 		}
 		notificarObservadores();
-		
+
 	}
 
 	public void bajaJugador(Persona jugador) {
