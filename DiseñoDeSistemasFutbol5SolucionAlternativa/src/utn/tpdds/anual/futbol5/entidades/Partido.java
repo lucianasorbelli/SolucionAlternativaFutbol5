@@ -8,6 +8,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 import utn.tpdds.anual.futbol5.observer.Observable;
+import utn.tpdds.anual.futbol5.strategy.Estandar;
 
 public class Partido extends Observable {
 
@@ -24,6 +25,7 @@ public class Partido extends Observable {
 			throw new RuntimeException();
 		}
 		inscripcionesDePartido.add(inscripcion);
+		notificarObservadores();
 	}
 
 	private long cantidadEstandares() {
@@ -80,7 +82,8 @@ public class Partido extends Observable {
 			insc.setInscripto(jugadorReemplazo);
 
 		}
-
+		notificarObservadores();
+		
 	}
 
 	public void bajaJugador(Persona jugador) {

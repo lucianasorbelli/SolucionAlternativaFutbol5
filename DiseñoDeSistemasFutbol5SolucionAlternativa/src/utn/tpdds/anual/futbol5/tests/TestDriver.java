@@ -3,11 +3,11 @@ package utn.tpdds.anual.futbol5.tests;
 import org.junit.Before;
 import org.junit.Test;
 
-import utn.tpdds.anual.futbol5.entidades.Estandar;
 import utn.tpdds.anual.futbol5.entidades.Partido;
 import utn.tpdds.anual.futbol5.entidades.Persona;
-import utn.tpdds.anual.futbol5.entidades.Solidario;
-import utn.tpdds.anual.futbol5.entidades.TipoDeInscripcion;
+import utn.tpdds.anual.futbol5.strategy.Estandar;
+import utn.tpdds.anual.futbol5.strategy.Solidario;
+import utn.tpdds.anual.futbol5.strategy.TipoDeInscripcion;
 
 public class TestDriver {
 	Partido partido;

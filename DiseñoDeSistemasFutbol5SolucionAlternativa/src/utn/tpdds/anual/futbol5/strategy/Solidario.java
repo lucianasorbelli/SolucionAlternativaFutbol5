@@ -1,4 +1,4 @@
-package utn.tpdds.anual.futbol5.entidades;
+package utn.tpdds.anual.futbol5.strategy;
 
 public class Solidario implements TipoDeInscripcion {
 

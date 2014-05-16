@@ -1,5 +1,7 @@
 package utn.tpdds.anual.futbol5.entidades;
 
+import utn.tpdds.anual.futbol5.strategy.TipoDeInscripcion;
+
 public class Inscripcion implements Comparable<Inscripcion> {
 
 	private Persona inscripto;

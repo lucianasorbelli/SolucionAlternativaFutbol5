@@ -1,4 +1,6 @@
-package utn.tpdds.anual.futbol5.entidades;
+package utn.tpdds.anual.futbol5.strategy;
+
+import utn.tpdds.anual.futbol5.entidades.Condicion;
 
 public class Condicional implements TipoDeInscripcion {
 

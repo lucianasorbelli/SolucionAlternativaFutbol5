@@ -3,6 +3,7 @@ package utn.tpdds.anual.futbol5.entidades;
 import java.util.List;
 
 import utn.tpdds.anual.futbol5.observer.Observable;
+import utn.tpdds.anual.futbol5.strategy.TipoDeInscripcion;
 
 public class Persona extends Observable {
 
@@ -15,6 +16,7 @@ public class Persona extends Observable {
 	public void inscribite(Partido partido, TipoDeInscripcion modo) {
 		Inscripcion insc = new Inscripcion(this, modo);
 		insc.inscribirme(partido);
+		notificarObservadores();
 
 	}
 
